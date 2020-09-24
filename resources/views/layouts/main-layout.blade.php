@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Lavarel es3</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>

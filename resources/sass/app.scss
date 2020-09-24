@@ -1,4 +1,10 @@
 // sass per es3
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-color: black;
   color: white;
@@ -21,7 +27,7 @@ header{
     border-collapse: collapse;
   }
   tr:nth-child(even){
-    background-color: green;
+    background-color: #777;
   }
   th{
     font-weight: bold;
@@ -33,6 +39,8 @@ header{
   }
   th, td{
     border: 1px solid white;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
   }
 }
 

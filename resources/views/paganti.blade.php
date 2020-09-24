@@ -4,8 +4,8 @@
 @section('content')
   <table>
     <tr>
-      <th>Name</th>
-      <th>Lastname</th>
+      <th>NAME</th>
+      <th>LASTNAME</th>
     </tr>
   @foreach ($paganti as $pagante)
     <tr>
