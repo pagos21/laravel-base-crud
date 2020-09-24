@@ -25,7 +25,7 @@ header{
     table-layout: fixed;
     margin: 0 auto;
     text-align: center;
-    width: 30%;
+    width: 500px;
     border-collapse: collapse;
   }
   tr:nth-child(even){
@@ -53,4 +53,11 @@ footer{
   align-items: center;
   height: 100px;
   border: 2px solid green;
+}
+
+
+@media screen and (max-width: 555px) {
+  table {
+    max-width: 70%;
+  }
 }
