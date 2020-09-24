@@ -19330,10 +19330,22 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // $("#title_show").click(
+//   function(){
+//     $("div.hidden").slideToggle(500);
+//   }
+// )
 
-$("#title_show").click(function () {
-  $("div.hidden").slideToggle(500);
+
+$(document).ready(function () {
+  $(document).on("click", "#title_show", function () {
+    // restringere la finestra manualmente
+    if (window.outerWidth < 900) {
+      $('.hidden').slideToggle(500);
+    } else {
+      $('.hidden').show(500);
+    }
+  });
 });
 
 /***/ }),

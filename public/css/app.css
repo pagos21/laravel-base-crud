@@ -20,6 +20,10 @@ header h3 {
   color: red;
 }
 
+.hidden {
+  display: block;
+}
+
 .container {
   margin-top: 50px;
 }
