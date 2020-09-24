@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  padding: 10px 5%;
+}
+
+header h3 {
+  text-align: center;
+  color: red;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container table {
+  table-layout: fixed;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+  border-collapse: collapse;
+}
+
+.container tr:nth-child(even) {
+  background-color: green;
+}
+
+.container th {
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+}
+
+.container td {
+  font-weight: bold;
+}
+
+.container th,
+.container td {
+  border: 1px solid white;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 2px solid green;
+}
+

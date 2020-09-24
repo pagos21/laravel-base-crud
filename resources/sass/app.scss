@@ -1,0 +1,46 @@
+// sass per es3
+body{
+  background-color: black;
+  color: white;
+}
+header{
+  padding: 10px 5%;
+  h3{
+    text-align: center;
+    color: red;
+  }
+}
+
+.container{
+  margin-top: 50px;
+  table{
+    table-layout: fixed;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    border-collapse: collapse;
+  }
+  tr:nth-child(even){
+    background-color: green;
+  }
+  th{
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+  }
+  td{
+    font-weight: bold;
+  }
+  th, td{
+    border: 1px solid white;
+  }
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 2px solid green;
+}
