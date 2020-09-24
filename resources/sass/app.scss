@@ -58,6 +58,19 @@ footer{
 
 @media screen and (max-width: 555px) {
   table {
-    max-width: 70%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #title_show{
+    cursor: pointer;
+  }
+  .hidden{
+    display: none;
+    h3{
+      margin-top: 10px;
+    }
   }
 }

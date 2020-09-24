@@ -19332,6 +19332,10 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+$("#title_show").click(function () {
+  $("div.hidden").slideToggle(500);
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

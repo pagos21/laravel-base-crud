@@ -18,4 +18,6 @@
     @include('parts.footer')
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="{{asset('js/app.js')}}" charset="utf-8"></script>
 </html>
